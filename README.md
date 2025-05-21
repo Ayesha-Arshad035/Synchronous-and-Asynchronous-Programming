@@ -1,9 +1,10 @@
+
 # Synchronous-and-Asynchronous-Programming
 Description and example code of Synchronous and Asynchronous Programming
 <br>
 <h1>Synchronous Programming</h1>
 <p>Done Sequentially and in a specific order.Program's flow is always from top to bottom</p>
-<h3>When to use?</h3>
+<h3>When to use? (Applications) </h3>
 <p>Suitable where tasks have dependencies or require sequential processing or operations are quick and don't involve long waiting tasks e.g: command-line tools , basic data processign scripts</p>
 <h3>Pros</h3>
 <ul>
