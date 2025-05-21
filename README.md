@@ -6,6 +6,7 @@ Description and example code of Synchronous and Asynchronous Programming
 <p>Done Sequentially and in a specific order.Program's flow is always from top to bottom</p>
 <h3>When to use? (Applications) </h3>
 <p>Suitable where tasks have dependencies or require sequential processing or operations are quick and don't involve long waiting tasks e.g: command-line tools, basic data processing scripts.</p>
+
 <h3>Pros</h3>
 <ul>
   <li>Simplicity</li>
@@ -21,6 +22,8 @@ Description and example code of Synchronous and Asynchronous Programming
 <p>Done Parallely.Asynchronous tasks can run concurrently, utilizing resources more efficiently.</p>
 <h3>When to use?</h3>
 <p>Suitable when getting data from external sources(databases, API) or real-time processing e.g: chat applications, streaming services.</p>
+<p>Example: A web server can handle 1000 requests at the same time without getting blocked.
+</p>
 <h3>Pros</h3>
 <ul>
   <li>Concurrency</li>
