@@ -1,5 +1,4 @@
 import requests
-
 urls = [
      "https://www.daraz.pk",
     "https://www.alibaba.com",
