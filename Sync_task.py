@@ -1,5 +1,4 @@
 import requests
-import time
 
 urls = [
      "https://www.daraz.pk",
@@ -8,7 +7,6 @@ urls = [
     "https://www.youtube.com/",
     "https://colab.google/"
 ]
-
 def fetch_sync(url):
     response = requests.get(url)
     print(response.text) 
